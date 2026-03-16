@@ -60,5 +60,6 @@ public class DatabaseConnection {
         } catch (SQLException e) {
             System.out.println("Error closing connection: " + e.getMessage());
         }
+
     }
 }
